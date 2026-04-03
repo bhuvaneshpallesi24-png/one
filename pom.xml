@@ -37,26 +37,16 @@
 </repository>
 	</repositories>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-			
-    <id>nexusRepo</id>
-    <url>http://100.53.79.160:8081/repository/my-ecom/</url>
+    <snapshotRepository>
+        <id>nexusRepo</id>
+        <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
+    </snapshotRepository>
 
-  <id>mydevops-feed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-  	</distributionManagement>
+    <repository>
+        <id>nexusRepo</id>
+        <url>http://100.53.79.160:8081/repository/my-ecom/</url>
+    </repository>
+</distributionManagement>
 	
 	<pluginRepositories>
 	    <pluginRepository>    
